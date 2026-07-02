@@ -60,5 +60,5 @@ La plateforme permet aux administrateurs, professeurs et étudiants de gérer ef
 ## Installation
 
 ```bash
-git clone https://github.com/username/PFA-Manager.git
+git clone https://github.com/uYahya-AI01/PFA-Manager.git
 ```
