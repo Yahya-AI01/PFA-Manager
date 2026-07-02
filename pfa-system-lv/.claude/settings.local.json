@@ -1,0 +1,43 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./mvnw compile:*)",
+      "Bash(ls \"C:\\\\Users\\\\elmeh\\\\Downloads\\\\pfa-system-lv\\\\pfa-system\\\\backend\"/mvnw*)",
+      "Bash(ls \"C:\\\\Users\\\\elmeh\\\\Downloads\\\\pfa-system-lv\\\\pfa-system\\\\backend\"/*.cmd)",
+      "Bash(mvn compile:*)",
+      "Bash(npx vite:*)",
+      "Bash(npm install:*)",
+      "Bash(mvn spring-boot:run)",
+      "Bash(.venv/Scripts/python app.py)",
+      "Bash(npm run:*)",
+      "Bash(taskkill //F //IM java.exe)",
+      "Bash(taskkill //F //IM python.exe)",
+      "Bash(taskkill //F //IM mvn.cmd)",
+      "Bash(netstat -ano)",
+      "Bash(taskkill //F //PID 25804)",
+      "Bash(taskkill //F //PID 39992)",
+      "Bash(taskkill //F //PID 40816)",
+      "Bash(taskkill //F //PID 32176)",
+      "Bash(python -m venv .venv)",
+      "Bash(.venv/Scripts/pip install:*)",
+      "Bash(MAVEN_OPTS=\"-Xmx512m\" mvn spring-boot:run)",
+      "Bash(MAVEN_OPTS=\"-Xmx256m -Xms128m -XX:+UseSerialGC\" mvn spring-boot:run)",
+      "Bash(wmic OS get FreePhysicalMemory,TotalVisibleMemorySize /Value)",
+      "Bash(powershell -Command \"Get-CimInstance Win32_OperatingSystem | Select FreePhysicalMemory,TotalVisibleMemorySize | Format-List\")",
+      "Bash(tasklist //FO CSV //NH)",
+      "Bash(sort -t, -k5 -rn)",
+      "Bash(powershell -Command \"[math]::Round\\(\\(Get-CimInstance Win32_OperatingSystem\\).FreePhysicalMemory/1024\\) ; [math]::Round\\(\\(Get-CimInstance Win32_OperatingSystem\\).TotalVisibleMemorySize/1024\\)\")",
+      "Bash(systeminfo)",
+      "Bash(./mvnw.cmd spring-boot:run)",
+      "Bash(taskkill:*)",
+      "Bash(wmic process:*)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8080/api/auth/login)",
+      "Bash(powershell -Command \"Get-Process -Id 25892 | Select-Object Path\" 2>/dev/null)",
+      "Bash(powershell -Command \"Get-Process -Id 31032 | Select-Object Path\" 2>/dev/null)",
+      "Bash(powershell -Command \"\\(Get-CimInstance Win32_Process -Filter 'ProcessId=25892'\\).CommandLine\")",
+      "Bash(powershell -Command \"\\(Get-CimInstance Win32_Process -Filter 'ProcessId=31032'\\).CommandLine\")",
+      "Bash(powershell -Command \"\\(Get-CimInstance Win32_Process -Filter 'ProcessId=33324'\\).CommandLine\")",
+      "Bash(powershell -Command \"\\(Get-CimInstance Win32_Process -Filter 'ProcessId=10168'\\).CommandLine\")"
+    ]
+  }
+}
