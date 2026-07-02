@@ -58,7 +58,7 @@ La plateforme permet aux administrateurs, professeurs et étudiants de gérer ef
 * REST API
 
 ## structure
-
+```text
 PFA-SYSTEM-LV/
 │
 ├── .idea/
@@ -109,7 +109,7 @@ PFA-SYSTEM-LV/
 │   └── ...
 │
 └── README.md
-
+```
 ## Installation
 
 ```bash
