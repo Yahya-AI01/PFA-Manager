@@ -1,4 +1,4 @@
-# PFA Manager 🎓🤖
+# PFA Manager 🎓
 
 ## Description
 
@@ -8,7 +8,7 @@ La plateforme permet aux administrateurs, professeurs et étudiants de gérer ef
 
 ## Fonctionnalités
 
-### 👨‍💼 Administrateur
+### Administrateur
 
 * Gestion des utilisateurs
 * Gestion des modules
@@ -16,21 +16,21 @@ La plateforme permet aux administrateurs, professeurs et étudiants de gérer ef
 * Envoi des identifiants par SMS
 * Tableau de bord statistique
 
-### 👨‍🏫 Professeur
+### Professeur
 
 * Création et gestion des sujets
 * Validation des équipes
 * Suivi des projets
 * Gestion des tâches via Kanban
 
-### 👨‍🎓 Étudiant
+### Étudiant
 
 * Consultation des sujets
 * Création des équipes
 * Gestion des tâches
 * Dépôt des livrables
 
-### 🤖 Intelligence Artificielle
+### Intelligence Artificielle
 
 * Détection des sujets similaires
 * Recommandation de technologies
@@ -56,6 +56,59 @@ La plateforme permet aux administrateurs, professeurs et étudiants de gérer ef
 * Scikit-Learn
 * JWT
 * REST API
+
+## structure
+
+PFA-SYSTEM-LV/
+│
+├── .idea/
+│   ├── misc.xml
+│   ├── modules.xml
+│   ├── pfa-system-lv.iml
+│   └── workspace.xml
+│
+├── pfa-system-lv/
+│   │
+│   ├── .claude/
+│   │   └── settings.local.json
+│   │
+│   ├── .idea/
+│   │   ├── .gitignore
+│   │   └── workspace.xml
+│   │
+│   ├── pfa-system/
+│   │   │
+│   │   ├── ai-service/
+│   │   │   └── (Flask + Scikit-Learn AI Microservice)
+│   │   │
+│   │   ├── backend/
+│   │   │   ├── src/
+│   │   │   │   └── main/
+│   │   │   │       ├── java/
+│   │   │   │       └── resources/
+│   │   │   │           ├── application.properties
+│   │   │   │           ├── application-dev.properties
+│   │   │   │           └── application-prod.properties
+│   │   │   │
+│   │   │   ├── target/
+│   │   │   ├── uploads/
+│   │   │   ├── pom.xml
+│   │   │   ├── hs_err_pid*.log
+│   │   │   └── replay_pid*.log
+│   │   │
+│   │   ├── database/
+│   │   │   └── schema.sql
+│   │   │
+│   │   ├── frontend/
+│   │   │   └── (React.js Application)
+│   │   │
+│   │   ├── .gitignore
+│   │   ├── etudiants-exemple.xlsx
+│   │   └── README.md
+│   │
+│   └── ...
+│
+└── README.md
 
 ## Installation
 
